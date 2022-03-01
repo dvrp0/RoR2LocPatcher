@@ -1,5 +1,5 @@
 # RoR2LocPatcher
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dvrp0/RoR2LocPatcher)](https://github.com/dvrp0//releases) [![GitHub license](https://img.shields.io/github/license/dvrp0/RoR2LocPatcher)](https://github.com/dvrp0/SBLocPatcher/blob/main/LICENSE)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dvrp0/RoR2LocPatcher)](https://github.com/dvrp0/RoR2LocPatcher/releases) [![GitHub license](https://img.shields.io/github/license/dvrp0/RoR2LocPatcher)](https://github.com/dvrp0/RoR2LocPatcher/blob/main/LICENSE)
 
 Localization patcher for Windows version of Risk of Rain 2 (SotV included)
 
