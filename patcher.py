@@ -11,7 +11,14 @@ class Patcher:
         finally:
             winreg.CloseKey(key)
 
-        self.localization_path = os.path.join(path, "steamapps", "common", "Risk of Rain 2", "Risk of Rain 2_Data", "StreamingAssets", "Language", "ko")
+        path_first = os.path.join(path, "steamapps", "common", "Risk of Rain 2", "Risk of Rain 2_Data", "StreamingAssets", "Language", "ko")
+        path_second = os.path.join(path, "SteamLibrary", "steamapps", "common", "Risk of Rain 2", "Risk of Rain 2_Data", "StreamingAssets", "Language", "ko")
+
+        if os.path.exists(path_first):
+            self.localization_path = path_first
+        else:
+            self.localization_path = path_second
+
         self.download_url = "http://raw.githubusercontent.com/dvrp0/RoR2LocPatcher/main/localizations/"
         self.filename = "output-korean.json"
         
