@@ -21,7 +21,7 @@ class Patcher:
 
         self.download_url = "http://raw.githubusercontent.com/dvrp0/RoR2LocPatcher/main/localizations/"
         self.filename = "output-korean.json"
-        
+
     def download(self):
         print("패치 파일 다운로드 중...")
         wget.download(f"{self.download_url}/{self.filename}")
