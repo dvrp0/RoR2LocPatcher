@@ -14,3 +14,4 @@ Localization patcher for Windows version of Risk of Rain 2 (SotV included)
 ## TODO
  - [ ] GUI
  - [ ] 오역 수정
+ - [ ] JSON Value 치환 방식으로 변경
